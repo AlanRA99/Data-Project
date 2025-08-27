@@ -9,6 +9,8 @@ car_data = pd.read_csv('vehicles_us.csv')
 hist_button = st.button('Construir histograma')
 
 # Histogram button
+st.header('Creacion de un histograma')
+
 # what happens when the button is clicked
 if hist_button:
     # write a message to the app
@@ -29,6 +31,8 @@ if hist_button:
 hist_button_1 = st.button('Construir gráfica de dispersión')
 
 # Scatter plot button
+st.header('Creacion de un grafica de dispersión')
+
 # what happens when the button is clicked
 if hist_button_1:
     # write a message to the app
